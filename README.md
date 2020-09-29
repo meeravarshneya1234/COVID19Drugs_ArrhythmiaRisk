@@ -1,4 +1,4 @@
-![Title](https://github.com/meeravarshneya1234/IKs_stabilizes_APs/blob/master/images/Title.jpg)  
+# Investigational treatments for COVID-19 may increase ventricular arrhythmia risk through drug interactions 
 
 This folder contains source code to reproduce the figures for "Investigational treatments for COVID-19 may increase ventricular arrhythmia risk through drug interactions" by Varshneya & Irurzun-Arana et. al. This work was performed in the Cardiac Systems Pharmacology Lab of Dr. Eric A. Sobie in the Department of Pharmacological Sciences at the Icahn School of Medicine Mount Sinai. 
 
