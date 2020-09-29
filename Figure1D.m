@@ -29,7 +29,7 @@ settings.variations = 1;
 settings.numbertokeep = 1;
 settings.gender ='M';
 settings.phys_state = 'healthy';
-settings.nBeats = 1;
+settings.nBeats = 100;
 
 Cmax_CQ = get_drug_Cmax('Chloroquine');
 Cmax_AZ = get_drug_Cmax('Azithromycin');

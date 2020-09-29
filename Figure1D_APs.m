@@ -1,3 +1,22 @@
+%% Figure 1D: Concentration-dependent effects of COVID-19 drugs on 
+%% ventricular action potentials.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%"Investigational treatments for COVID-19 may increase ventricular
+% arrhythmia risk through drug interactions" 
+
+% By:Varshneya,Irurzun-Arana,Campana,Dariolli,Gutierrez,Pullinger,Sobie
+
+% For questions, please contact Dr.Eric A Sobie -> eric.sobie@mssm.edu 
+% or put in a pull request or open an issue on the github repository:
+% https://github.com/meeravarshneya1234/COVID19Drugs_ArrhythmiaRisk.git. 
+
+%--- Note:
+% Results displayed in manuscript were run using MATLAB 2019b on a 64bit
+% Intel Processor. For exact replication of figures it is best to use these
+% settings.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 settings.celltype = 'endo'; % 'epi', 'endo', 'mid',
 settings.PCL = 1000 ;  % Interval bewteen stimuli,[ms]
 settings.stim_delay = 20 ; % Time the first stimulus, [ms]
@@ -53,10 +72,6 @@ hold on
 APD(4) = find_APD90(datatable.times,datatable.states(:,1));
 
 xlim([0 500])
-
 legend('bl','AZ','CQ','combined')
+set(gca,'FontSize',12,'FontWeight','bold','FontName','Calibri','XGrid','On','YGrid','On')
 
-fname = 'Figure1D_APs';
-folder = 'C:\Users\meera\OneDrive - icahn.mssm.edu\Mount Sinai\Sobie Lab\Thesis\Aim 2\COVID-19\COVID Manuscript\CPT PSP\UpdatedFigures\';
-saveas(gcf,[folder fname],'emf')
-saveas(gcf,[folder fname],'fig')
