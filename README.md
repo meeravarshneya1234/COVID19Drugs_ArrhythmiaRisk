@@ -1,4 +1,4 @@
-![Title](https://github.com/meeravarshneya1234/COVID19Drugs_ArrhythmiaRisk/images/Title.png)  
+![Title](https://github.com/meeravarshneya1234/COVID19Drugs_ArrhythmiaRisk/blob/master/Images/Title.png)  
 
 This folder contains source code to reproduce the figures for "Investigational treatments for COVID-19 may increase ventricular arrhythmia risk through drug interactions" by Varshneya & Irurzun-Arana et. al. This work was performed in the Cardiac Systems Pharmacology Lab of Dr. Eric A. Sobie in the Department of Pharmacological Sciences at the Icahn School of Medicine Mount Sinai. 
 
