@@ -1,0 +1,6 @@
+# Windows default autosave extension
+*.asv
+# Matlab data files 
+*.fig 
+*.eps
+*.mat
