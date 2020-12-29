@@ -32,7 +32,8 @@ settings.remove_arrhythmias = true; % remove cells that form arrhythmias before 
 % settings.scaling_matrix = popfuncs.create_scale_vector(settings,settings.total_variations); % create population scaling matrix                    
 % After creating the matrix, we saved it to a 'COVID-19_Population.csv' file and called that
 % going forward. 
-settings.scalings = readmatrix('COVID-19_Population.csv');
+parameter_matrix = readtable('COVID-19_Population.csv');
+settings.scalings = parameter_matrix{:,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Run Healthy Male Population 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -40,7 +41,7 @@ settings.scalings = readmatrix('COVID-19_Population.csv');
 settings.gender = 'M'; % male - M female -F
 settings.phys_state = 'healthy'; % healthy or HF
 
-%-- Folder Path to Save Data 
+%-- Folder to Save Data 
 Folder = 'HealthyMale';
 mkdir(Folder)
 

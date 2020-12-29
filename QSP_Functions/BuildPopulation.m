@@ -23,7 +23,7 @@ mkdir(PopFolder)
 disp('Running New Population...')
 
 % Does the user provide a parameter matrix or should we make one? 
-if ~isfield(settings,'scaling_matrix') % make new one
+if ~isfield(settings,'scalings') % make new one
     settings.scalings = popfuncs.create_scale_vector(settings,settings.variations);
 end
 
