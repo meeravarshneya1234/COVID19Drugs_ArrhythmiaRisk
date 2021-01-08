@@ -37,17 +37,18 @@ genders = {'M','F'};
 phys_states = {'healthy','HF'};
 Folders = {'HealthyMale','HealthyFemale','HFMale','HFFemale'};
 n = 0;
-for i = 1:length(phys_states) 
+for i = 1:length(phys_states)
     for ii = 1:length(genders)
         n = n+1;
         settings.gender = genders{ii};
         settings.phys_state = phys_states{i};
-        ApplyDrug(settings,drug,Folders{n}); % run simulation 
-    end 
-end 
+        ApplyDrug(settings,drug,Folders{n}); % run simulation
+    end
+end
 
 %% Plot AP Prolongation 
-Drugs = {'CQ+AZ','LP+RT'};
+Folders = {'HealthyMale','HealthyFemale','HFMale','HFFemale'};
+Drugs = {'CQ+AZ'};
 for iii = 1:length(Drugs)
     
     for ii = 1:length(Folders)
