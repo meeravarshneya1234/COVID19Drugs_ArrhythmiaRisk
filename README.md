@@ -3,7 +3,8 @@
 This folder contains source code to reproduce the figures for "Investigational treatments for COVID-19 may increase ventricular arrhythmia risk through drug interactions" by Varshneya & Irurzun-Arana et. al. This work was performed in the Cardiac Systems Pharmacology Lab of Dr. Eric A. Sobie in the Department of Pharmacological Sciences at the Icahn School of Medicine Mount Sinai. 
 
 ## Requirements
-MATLAB - version 2014 or higher; 2019b was used to run all simulations.
+MATLAB - version 2014 or higher; 2017a was used to create the populations and 2019b was used to perform analysis.
+R - version 3.6.3; Required packages: mrgsolve, ggplot2, dplyr, Rtools
 
 ## Usage 
 Figures can be recreated by running the "FigureX.m" files. Functions used within each m-file are within the functions folder and have been extensively commented for easy usability.
