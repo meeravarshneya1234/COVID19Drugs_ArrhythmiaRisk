@@ -24,4 +24,4 @@ Many drugs that have been proposed for treatment of COVID-19 are reported to cau
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Citation 
-Varshneya, M., Irurzun‐Arana, I., Campana, C., Dariolli, R., Gutierrez, A., Pullinger, T.K. and Sobie, E.A. (2021), Investigational treatments for COVID‐19 may increase ventricular arrhythmia risk through drug interactions. CPT Pharmacometrics Syst. Pharmacol.. Accepted Author Manuscript. https://doi.org/10.1002/psp4.12573
+Varshneya, M., Irurzun-Arana, I., Campana, C., Dariolli, R., Gutierrez, A., Pullinger, T.K. and Sobie, E.A. (2021), Investigational Treatments for COVID‐19 may Increase Ventricular Arrhythmia Risk Through Drug Interactions. CPT Pharmacometrics Syst. Pharmacol., 10: 100-107. https://doi.org/10.1002/psp4.12573
